@@ -39,4 +39,4 @@ app.post('/url', generateSlug,async(req,res)=>{
   res.status(200).json(link)
 })
 
-module.export=app;
+module.exports=app;
